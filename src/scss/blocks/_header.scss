@@ -22,6 +22,9 @@
     a.active {
       color: #35aff4;
     }
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   // .nav__btn
@@ -29,6 +32,9 @@
   &__btn {
     display: flex;
     gap: 12px;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -37,7 +43,6 @@
   border-radius: 8px;
   padding: 8px 20px;
   color: #181818;
-
   transition: all 0.3s ease 0s;
 }
 .btn-login:hover {
@@ -52,4 +57,17 @@
 }
 .btn-signup:hover {
   opacity: 0.8;
+}
+.nav {
+  // .nav__icon
+
+  &__icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__icon {
+    display: block;
+  }
 }

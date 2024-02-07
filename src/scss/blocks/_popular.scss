@@ -1,5 +1,8 @@
 .popular {
   margin-bottom: 60px;
+  @media (max-width: 1240px) {
+    padding: 15px;
+  }
   // .popular__top
 
   &__top {
@@ -18,12 +21,19 @@
       font-weight: 500;
       line-height: 46px;
       margin-bottom: 16px;
+      @media (max-width: 425px) {
+        font-size: 20px;
+        line-height: 20px;
+      }
     }
     p {
       font-size: 18px;
       font-weight: 450;
       line-height: 150%;
       color: #909090;
+      @media (max-width: 425px) {
+        font-size: 14px;
+      }
     }
   }
 

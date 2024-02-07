@@ -7,17 +7,15 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 80px;
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
   }
 
   // .explore__picture
 
-  &__picture {
-  }
-
   // .explore__info
-
-  &__info {
-  }
 
   // .explore__title
 
@@ -26,6 +24,9 @@
     font-weight: 500;
     line-height: 120%;
     padding-bottom: 24px;
+    @media (max-width: 768px) {
+      font-size: 25px;
+    }
   }
 
   // .explore__text
@@ -36,6 +37,9 @@
     line-height: 150%;
     padding-bottom: 40px;
     color: #909090;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 
   // .explore__button
@@ -52,6 +56,4 @@
   &__link {
     color: #fff;
   }
-}
-.container {
 }
