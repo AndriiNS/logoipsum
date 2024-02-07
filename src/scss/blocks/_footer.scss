@@ -1,0 +1,79 @@
+.footer {
+  background-color: #181818;
+  padding: 80px 0;
+  // .footer__content
+
+  &__content {
+    display: grid;
+    grid-template-columns: 536px 536px;
+  }
+
+  // .footer__copy
+
+  // .footer__copy-text
+
+  &__copy-text {
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 150%;
+    color: #fff;
+    max-width: 300px;
+    margin-top: 24px;
+  }
+
+  // .footer__nav
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 128px;
+  }
+}
+
+.footer-nav {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  // .footer-nav__help
+
+  &__help {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  // .footer-nav__help-item
+
+  // .footer-nav__help-link
+
+  &__help-link {
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 150%;
+    color: #fff;
+  }
+}
+
+.footer-nav-link {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 150%;
+  color: #fff;
+}
+.footer-nav__contact-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.footer-nav__help-title {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
