@@ -31,14 +31,8 @@
       width: 236.67px;
       height: 273.33px;
       left: -80px;
-      background-image: url("../../img/subscribe-img.svg");
+      background-image: url("./img/subscribe-img.svg");
     }
-  }
-}
-.subscribe {
-  // .subscribe__form
-
-  &__form {
   }
 }
 .subscribe-form {
@@ -49,7 +43,7 @@
     background-color: #fff;
     height: 48px;
     padding-left: 34px;
-    background-image: url("../../img/input-icon.svg");
+    background-image: url(../../img/input-icon.svg);
     background-repeat: no-repeat;
     background-position: 8px 15px;
   }
